@@ -12,6 +12,8 @@ import MultiGraph from "./MultiGraph"
 import BarDash from "./BarDash"
 import BarSide from "./BarSide"
 import ICon from "./images/homeicon.png"
+import InICon from "./images/inslight.png"
+
 import Vogue from "./images/vogue.svg"
 import { useHistory } from "react-router-dom";
 
@@ -241,9 +243,9 @@ function App() {
                         <div className="right">
                             <div className="title">Insights</div>
                             <div className="Content">
-                                <div className="one"><div className="imgtitle"><img src={Note} />Note: </div>Given that we have <b>168326</b> observations (i.e. <b>107607</b> & <b>60719</b> comments), which is a fairly large sample size, we have chosen a more conservative α-level of 0.01. (i.e we expect to be accurately rejecting the null hypothesis at least 99 percent of the time)</div>
-                                <div className="two"><div className="imgtitle">Comparing Sentiment and motives  across the two periods:</div>
-                                    There were significant changes in the amount of <b>Positive</b> emotion increased during the Covid period, and when we look at the means, we find that on average expression of the <b>Negative</b> Emotion and the <b>Risk</b> motive were also increased during the Covid period.</div>
+                                <div className="one"><div className="imgtitle"><img src={Note} />Note: </div>Given that we have <b className="countcolor">168326</b> observations (i.e. <b className="countcolor">107607</b> & <b className="countcolor">60719</b> comments), which is a fairly large sample size, we have chosen a more conservative α-level of 0.01. (i.e we expect to be accurately rejecting the null hypothesis at least 99 percent of the time)</div>
+                                <div className="two"><div className="imgtitle"><img src={InICon} />Comparing Sentiment and motives  across the two periods:</div>
+                                    There were significant changes in the amount of <b className="green">Positive</b> emotion increased during the Covid period, and when we look at the means, we find that on average expression of the <b className="red">Negative</b> Emotion and the <b className="red">Risk</b> motive were also increased during the Covid period.</div>
                             </div>
                         </div>
                     </div>

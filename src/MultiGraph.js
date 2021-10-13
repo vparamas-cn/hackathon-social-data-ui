@@ -68,6 +68,11 @@ const ChartGraph = () => {
         xaxis: {
             categories: [2018,2019,2020,2021]
         },
+        yaxis: {
+            title: {
+                text:"Sentiment and Motive Score"
+            }
+        },
         legend: {
             position: 'top',
             horizontalAlign: "left",

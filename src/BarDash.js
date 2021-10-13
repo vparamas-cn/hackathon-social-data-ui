@@ -38,7 +38,10 @@ const ChartGraph = () => {
             offsetX: 70
         },
         xaxis: {
-            categories: ["Women Empower", "Gender Equality", "Save the Planet", "Peace", "Poverty"]
+            categories: ["Women Empower", "Gender Equality", "Save the Planet", "Peace", "Poverty"],
+            title: {
+                text:"Words per count"
+            }
         }
     };
     return (
