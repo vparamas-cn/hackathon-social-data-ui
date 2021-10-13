@@ -20,6 +20,19 @@
   }
 }
 
+.blackfooter {
+  height          : 60px;
+  width           : 100%;
+  background-color: #000;
+  color           : #cac8c8;
+  font-size       : 14px;
+  font-weight     : 300;
+  margin-bottom   : 0;
+  display         : flex;
+  justify-content : center;
+  align-items     : center;
+}
+
 .DDContainer {
   width         : 100%;
   height        : 100vh;
@@ -49,14 +62,14 @@
 
       .arc {
         .title {
-          display                : flex;
-          padding-bottom         : 30px;
-          font-size              : 17px;
-          color                  : #000;
-          font-weight: bold;
-          width                  : 350px;
-          padding-left           : 15px;
-          justify-content        : center;
+          display        : flex;
+          padding-bottom : 30px;
+          font-size      : 17px;
+          color          : #000;
+          font-weight    : bold;
+          width          : 350px;
+          padding-left   : 15px;
+          justify-content: center;
         }
 
         .gauage {
@@ -86,13 +99,13 @@
 
       .left {
         .title {
-          display                : flex;
-          padding-bottom         : 65px;
-          font-size              : 17px;
-          color                  : #000;
-          font-weight: bold;
-          padding-left           : 15px;
-          justify-content        : center;
+          display        : flex;
+          padding-bottom : 65px;
+          font-size      : 17px;
+          color          : #000;
+          font-weight    : bold;
+          padding-left   : 15px;
+          justify-content: center;
         }
 
         padding-left: 40px;
@@ -124,13 +137,13 @@
 
       .right {
         .title {
-          display                : flex;
-          padding-bottom         : 30px;
-          font-size              : 17px;
-          color                  : #000;
-          font-weight: bold;
-          padding-left           : 15px;
-          justify-content        : center;
+          display        : flex;
+          padding-bottom : 30px;
+          font-size      : 17px;
+          color          : #000;
+          font-weight    : bold;
+          padding-left   : 15px;
+          justify-content: center;
         }
 
         .emojisholder {
@@ -159,7 +172,7 @@
 
             .text {
               font-size: 15px;
-              color: #000;
+              color    : #000;
               padding  : 5px;
             }
 
@@ -180,12 +193,12 @@
 
       .MultiGraph {
         .graphtitle {
-          display                : flex;
-          padding-bottom         : 45px;
-          font-size              : 17px;
-          color                  : #000;
-          font-weight: bold;
-          justify-content        : center;
+          display        : flex;
+          padding-bottom : 45px;
+          font-size      : 17px;
+          color          : #000;
+          font-weight    : bold;
+          justify-content: center;
         }
 
         .apexcharts-toolbar {
@@ -204,19 +217,19 @@
           align-items    : center;
 
           div {
-            display                : flex;
-            padding-bottom         : 30px;
-            font-size              : 17px;
-            color                  : #000;
-            font-weight: bold;
+            display       : flex;
+            padding-bottom: 30px;
+            font-size     : 17px;
+            color         : #000;
+            font-weight   : bold;
           }
 
           .subtitle {
-            display                : flex;
-            padding-bottom         : 30px;
-            font-size              : 17px;
-            color                  : #000;
-            font-weight: bold;
+            display       : flex;
+            padding-bottom: 30px;
+            font-size     : 17px;
+            color         : #000;
+            font-weight   : bold;
           }
 
           img {
@@ -231,12 +244,12 @@
 
       .social {
         .title {
-          display                : flex;
-          padding-bottom         : 45px;
-          font-size              : 17px;
-          color                  : #000;
-          font-weight: bold;
-          justify-content        : center;
+          display        : flex;
+          padding-bottom : 45px;
+          font-size      : 17px;
+          color          : #000;
+          font-weight    : bold;
+          justify-content: center;
         }
       }
     }
@@ -248,13 +261,13 @@
 
       .bar {
         .title {
-          display                : flex;
-          padding-bottom         : 45px;
-          font-size              : 17px;
-          color                  : #000;
-          font-weight: bold;
-          padding-bottom         : 30px;
-          justify-content        : center;
+          display        : flex;
+          padding-bottom : 45px;
+          font-size      : 17px;
+          color          : #000;
+          font-weight    : bold;
+          padding-bottom : 30px;
+          justify-content: center;
         }
       }
 
@@ -265,13 +278,13 @@
           margin-bottom : 30px;
 
           .title {
-            display                : flex;
-            padding-bottom         : 45px;
-            font-size              : 17px;
-            color                  : #000;
-          font-weight: bold;
-            overflow               : auto;
-            justify-content        : center;
+            display        : flex;
+            padding-bottom : 45px;
+            font-size      : 17px;
+            color          : #000;
+            font-weight    : bold;
+            overflow       : auto;
+            justify-content: center;
 
 
           }
@@ -293,6 +306,8 @@
                 display        : flex;
                 justify-content: flex-start;
                 align-items    : center;
+                padding-left   : 20px;
+
               }
 
               .h2 {
@@ -340,8 +355,9 @@
                 padding      : 12px 7px;
 
                 .c1 {
-                  width     : 110px;
-                  text-align: left;
+                  width       : 110px;
+                  text-align  : left;
+                  padding-left: 20px;
                 }
 
                 .c2 {
@@ -377,13 +393,13 @@
         display       : flex;
 
         .title {
-          display                : flex;
-          padding-bottom         : 45px;
-          font-size              : 17px;
-          color                  : #000;
-          font-weight: bold;
-          overflow               : auto;
-          justify-content        : center;
+          display        : flex;
+          padding-bottom : 45px;
+          font-size      : 17px;
+          color          : #000;
+          font-weight    : bold;
+          overflow       : auto;
+          justify-content: center;
 
 
         }
@@ -399,15 +415,15 @@
           flex-direction : column;
 
           .one {
-            color                  : #000;
-            border                 : 1px solid #ccc;
-            padding                : 15px;
-            margin-bottom          : 15px;
-            text-align             : left;
-            border-radius          : 6px;
+            color        : #000;
+            border       : 1px solid #ccc;
+            padding      : 15px;
+            margin-bottom: 15px;
+            text-align   : left;
+            border-radius: 6px;
 
             .imgtitle {
-              display: flex;
+              display    : flex;
               font-weight: bold;
 
               img {
@@ -419,19 +435,20 @@
           }
 
           .two {
-            color                  : #000;
-            
-            border                 : 1px solid #ccc;
-            padding                : 15px;
-            margin-bottom          : 15px;
-            border-radius          : 6px;
+            color: #000;
+
+            border       : 1px solid #ccc;
+            padding      : 15px;
+            margin-bottom: 15px;
+            border-radius: 6px;
 
             text-align: left;
 
             .imgtitle {
-              display: flex;
+              display       : flex;
               padding-bottom: 7px;
-              font-weight: bold;
+              font-weight   : bold;
+
               img {
                 width         : 24px;
                 padding-right : 3px;
@@ -439,17 +456,20 @@
               }
             }
           }
-          .countcolor{
+
+          .countcolor {
             font-weight: bold;
-            color: #0088ff;
+            color      : #0088ff;
           }
-          .red{
+
+          .red {
             font-weight: bold;
-            color: red;
+            color      : red;
           }
-          .green{
+
+          .green {
             font-weight: bold;
-            color: green;
+            color      : green;
           }
         }
 
@@ -477,7 +497,7 @@
   .container {
     padding-top : 80px;
     padding-left: 40px;
-    display: flex;
+    display     : flex;
 
     .left {
       width         : 440px;
@@ -486,7 +506,7 @@
       align-items   : flex-start;
 
       padding-bottom: 40px;
-      padding-right: 70px;
+      padding-right : 70px;
 
       .one {
         font-size     : 12px;
@@ -520,50 +540,58 @@
     }
 
     .right {
-      width: calc(100% - 440px);
-      display: flex;
+      width          : calc(100% - 440px);
+      display        : flex;
       justify-content: space-between;
-      padding: 0px 50px;
-      border-left: .5px solid #ebebeb;
-      position: relative;
-      margin-bottom: 40px;
-      padding-left: 18%;
-      .btitle{
-        position: absolute;
-        right: 3.2vw;
-        top: -3vw;
-        font-size: 21px;
+      padding        : 0px 50px;
+      border-left    : .5px solid #ebebeb;
+      position       : relative;
+      margin-bottom  : 40px;
+      padding-left   : 18%;
+
+      .btitle {
+        position   : absolute;
+        right      : 3.2vw;
+        top        : -3vw;
+        font-size  : 21px;
         font-weight: bold;
       }
-      .hone{
-        display: flex;
+
+      .hone {
+        display       : flex;
         flex-direction: column;
-        align-items: flex-end;
-        padding-top: 20px;
-        div{
+        align-items   : flex-end;
+        padding-top   : 20px;
+
+        div {
           padding-bottom: 10px;
         }
       }
-      .htwo{
-        display: flex;
+
+      .htwo {
+        display       : flex;
         flex-direction: column;
-        align-items: flex-end;
-        padding-top: 20px;
-        div{
+        align-items   : flex-end;
+        padding-top   : 20px;
+
+        div {
           padding-bottom: 10px;
         }
       }
-      .hthree{
-        display: flex;
+
+      .hthree {
+        display       : flex;
         flex-direction: column;
-        align-items: flex-end;
-        padding-top: 20px;
-        div{
+        align-items   : flex-end;
+        padding-top   : 20px;
+
+        div {
           padding-bottom: 10px;
         }
-        .brand{
+
+        .brand {
           font-weight: bold;
-          cursor: pointer;
+          cursor     : pointer;
         }
       }
     }
