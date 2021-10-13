@@ -1,0 +1,26 @@
+FROM condenast/cn-de-node:departures
+
+ENV NODE_ENV=local
+ENV NODE_PATH=/usr/lib/app/node_modules
+ENV PATH=${PATH}:${NODE_PATH}/react-scripts/bin
+# To control react-scripts start port
+ENV PORT=8081
+
+COPY ["bin/post-launch.bash", "bin/run-app.bash", "/tmp/social-data-ui/bin/"]
+RUN for f in /tmp/social-data-ui/bin/*; do \
+      tmp=${f#"/tmp/social-data-ui/bin/"}; \
+      mv ${f} /usr/bin/${tmp%".bash"}; \
+      chmod +x /usr/bin/${tmp%".bash"}; \
+      done \
+    && rm -rf /tmp/social-data-ui/bin
+
+RUN mkdir /usr/lib/app
+
+COPY ["package.json", "/usr/lib/app/"]
+
+RUN cd /usr/lib/app \
+  && npm install \
+  && npm install -g nodemon \
+  && rm -rf package.json
+
+WORKDIR /usr/src/app
